@@ -52,6 +52,8 @@ body{
   line-height: 1.5;
 }
 
+
+
 .contact{
   background-color: #ffffff;
   padding: 20px;
@@ -82,5 +84,41 @@ body{
 .contact a:focus {
   outline: 2px solid #4a90e2;
   outline-offset: 2px;
-    
 }
+
+.profile:hover {
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+.contact:hover {
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.profile h2:hover {
+  color: #4a90e2;
+  transition: color 0.3s ease;
+}
+.contact h2:hover {
+  color: #4a90e2;
+  transition: color 0.3s ease;
+}
+.profile h2:active {
+  color: #357ABD;
+}
+.contact h2:active {
+  color: #357ABD;
+}
+.profile h2:focus {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
+.contact h2:focus {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
+
+
+
+
+
