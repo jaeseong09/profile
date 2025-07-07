@@ -52,3 +52,34 @@ body{
   line-height: 1.5;
 }
 
+.contact{
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+.contact h2 {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  line-height: 1.5;
+}
+.contact a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+.contact a:hover {
+  text-decoration: underline;
+} 
+.contact a:visited {
+  color: #4a90e2;
+}
+.contact a:active {
+  color: #357ABD;
+}
+.contact a:focus {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
